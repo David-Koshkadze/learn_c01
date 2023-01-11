@@ -5,7 +5,7 @@ all:
 	$(CC) -Wall main.c -o $(TARGET)
 
 word_count:
-	$(CC) -Wall word_counting.c -o wcv2c
+	$(CC) -Wall word_counting.c i2o_functions.c -o wcv2c
 
 i2o:
 	$(CC) -Wall i2o.c -o i2o 
