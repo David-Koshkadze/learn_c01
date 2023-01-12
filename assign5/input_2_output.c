@@ -13,10 +13,10 @@
 int my_getchar();
 int my_putchar(int c);
 
-int main( )
+int main()
 {
     int c;   
-    
+ 
     c = my_getchar();
     
     while (c != EOF)
